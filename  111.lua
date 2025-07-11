@@ -32,8 +32,8 @@ local Tab = Window:MakeTab({
 })
 
 Tab:AddParagraph("DC脚本中心")
-Tab:AddParagraph("作者roblox id:输入你的罗布乐思名")
-Tab:AddParagraph("作者QQ输入你的QQ号")
+Tab:AddParagraph("作者roblox id:wjccdjvdjhdhvd")
+Tab:AddParagraph("作者QQ1876758272")
 Tab:AddParagraph("倒卖者死全家并且螺旋飞天")
 local Tab = Window:MakeTab({
 	Name = "设置",
