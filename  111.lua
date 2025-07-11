@@ -1,4 +1,4 @@
-game:GetService("StarterGui"):SetCore("SendNotification",{ Title = "DC脚本中心"; Text ="专做死铁轨脚本整合"; Duration = 25; })
+game:GetService("StarterGui"):SetCore("SendNotification",{ Title = "DC脚本中心"; Text ="缝合"; Duration = 25; })
 
 local CoreGui = game:GetService("StarterGui")
 
@@ -31,15 +31,10 @@ local Tab = Window:MakeTab({
     PremiumOnly = false
 })
 
-Tab:AddParagraph("黄某脚本中心正式版")
-Tab:AddParagraph("阿尔宙斯注入器用不了")
-Tab:AddParagraph("作者roblox id:wjccdjvdjhdhvd")
-Tab:AddParagraph("作者QQ1876758272")
-Tab:AddParagraph("快手hbmh666888")
-Tab:AddParagraph("如果你是买来的那就说明你被圈了")
+Tab:AddParagraph("DC脚本中心")
+Tab:AddParagraph("作者roblox id:输入你的罗布乐思名")
+Tab:AddParagraph("作者QQ输入你的QQ号")
 Tab:AddParagraph("倒卖者死全家并且螺旋飞天")
-Tab:AddParagraph("倒卖狗快手:2899078088")
-Tab:AddParagraph("倒卖狗QQ:3205768718")
 local Tab = Window:MakeTab({
 	Name = "设置",
 	Icon = "rbxassetid://7734068321",
@@ -567,3 +562,125 @@ local s = Instance.new("SunRaysEffect", a)
 s.Enabled = true
 s.Intensity = 0.01
 s.Spread = 0.146
+
+print("最高画质已载入! 由黄某汉化")
+  end
+})
+
+Tab:AddButton({
+  Name = "画质提升(比上面的暗一点)(无法关闭)",
+  Callback = function()
+  local a = game.Lighting
+a.Ambient = Color3.fromRGB(33, 33, 33)
+a.Brightness = 5.69
+a.ColorShift_Bottom = Color3.fromRGB(0, 0, 0)
+a.ColorShift_Top = Color3.fromRGB(255, 247, 237)
+a.EnvironmentDiffuseScale = 0.105
+a.EnvironmentSpecularScale = 0.522
+a.GlobalShadows = true
+a.OutdoorAmbient = Color3.fromRGB(51, 54, 67)
+a.ShadowSoftness = 0.18
+a.GeographicLatitude = -15.525
+a.ExposureCompensation = 0.75
+b.Enabled = true
+b.Intensity = 0.99
+b.Size = 9999 
+b.Threshold = 0
+local c = Instance.new("ColorCorrectionEffect", a)
+c.Brightness = 0.015
+c.Contrast = 0.25
+c.Enabled = true
+c.Saturation = 0.2
+c.TintColor = Color3.fromRGB(217, 145, 57)
+if getgenv().mode == "Summer" then
+   c.TintColor = Color3.fromRGB(255, 220, 148)
+elseif getgenv().mode == "Autumn" then
+   c.TintColor = Color3.fromRGB(217, 145, 57)
+else
+   warn("No mode selected!")
+   print("Please select a mode")
+   b:Destroy()
+   c:Destroy()
+end
+local d = Instance.new("DepthOfFieldEffect", a)
+d.Enabled = true
+d.FarIntensity = 0.077
+d.FocusDistance = 21.54
+d.InFocusRadius = 20.77
+d.NearIntensity = 0.277
+local e = Instance.new("ColorCorrectionEffect", a)
+e.Brightness = 0
+e.Contrast = -0.07
+e.Saturation = 0
+e.Enabled = true
+e.TintColor = Color3.fromRGB(255, 247, 239)
+local e2 = Instance.new("ColorCorrectionEffect", a)
+e2.Brightness = 0.2
+e2.Contrast = 0.45
+e2.Saturation = -0.1
+e2.Enabled = true
+e2.TintColor = Color3.fromRGB(255, 255, 255)
+local s = Instance.new("SunRaysEffect", a)
+s.Enabled = true
+s.Intensity = 0.01
+s.Spread = 0.146
+
+print("RTX Graphics loaded! Created by BrickoIcko")
+
+  end
+})
+
+Tab:AddButton({
+  Name = "偷物品",
+  Callback = function()
+for i,v in pairs (game.Players:GetChildren()) do
+wait()
+for i,b in pairs (v.Backpack:GetChildren()) do
+b.Parent = game.Players.LocalPlayer.Backpack
+end
+end
+  end
+})
+
+Tab:AddButton({
+  Name = "R15CB脚本",
+  Callback = function()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/roblox-ye/QQ515966991/refs/heads/main/YE-R15CB-SCRIPT.lua"))()
+  end
+})
+
+Tab:AddButton({
+  Name = "老外键盘脚本",
+  Callback = function()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt"))()
+  end
+})
+
+Tab:AddButton({
+  Name = "新版快速互动",
+  Callback = function()
+  game.ProximityPromptService.PromptButtonHoldBegan:Connect(function(v)
+    v.HoldDuration = 0
+end)
+  end
+})
+
+Tab:AddButton({
+  Name = "Mspaint脚本",
+  Callback = function()
+  loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/002c19202c9946e6047b0c6e0ad51f84.lua"))()
+  end
+})
+
+local Tab = Window:MakeTab({
+	Name = "死铁轨",
+	Icon = "rbxassetid://7734068321",
+	PremiumOnly = false
+})
+
+Tab:AddButton({
+  Name = "自动刷劵",
+  Callback = function()
+  这里输脚本
+  end
+})
