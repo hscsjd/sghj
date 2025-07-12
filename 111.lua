@@ -36,7 +36,7 @@ Tab:AddParagraph("阿尔宙斯注入器用不了")
 Tab:AddParagraph("作者roblox id:wjccdjvdjhdhvd")
 Tab:AddParagraph("作者QQ1876758272")
 Tab:AddParagraph("快手hbmh666888")
-Tab:AddParagraph("如果你是买来的那就说明你被圈了")
+Tab:AddParagraph("没父母的QQ3932412201快手是4000742299")
 Tab:AddParagraph("倒卖者死全家并且螺旋飞天")
 local Tab = Window:MakeTab({
 	Name = "设置",
